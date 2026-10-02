@@ -20,5 +20,6 @@ resource "aws_s3_bucket" "demo_bucket" {
   tags = {
     Environment = "Dev"
     ManagedBy   = "GitOps"
+    Owner       = "Sai Prakash"
   }
 }
