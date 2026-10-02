@@ -15,7 +15,7 @@ provider "aws" {
 # The desired infrastructure state:
 resource "aws_s3_bucket" "demo_bucket" {
   # S3 bucket names must be globally unique; replace "demo" with your name/random number
-  bucket = "gitops-beginner-demo-bucket-20261002"
+  bucket = "gitops-beginner-demo-bucket-20261002-1"
 
   tags = {
     Environment = "Dev"
